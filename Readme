@@ -1,0 +1,4 @@
+- You must configure .env file for your project.
+- Run "npm install" before start project
+- Run "npm start" to start api
+- Tables will be created after start api automatically
