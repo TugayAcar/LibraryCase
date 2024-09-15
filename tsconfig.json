@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",            // Hedef JavaScript versiyonu
+      "module": "commonjs",          // Modül sistemini commonjs olarak ayarlayın
+      "outDir": "./dist",            // Derlenmiş JavaScript dosyalarını bu dizine koy
+      "rootDir": "./src",            // TypeScript dosyalarınızın bulunduğu dizin
+      "strict": true,                // Sıkı tip denetimi
+      "esModuleInterop": true,       // ES modülleri ile uyumluluk
+      "skipLibCheck": true,          // Kütüphane dosyalarını kontrol etme
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "src/**/*.ts"                  // TypeScript dosyalarınızın dahil olduğu dizin
+    ],
+    "exclude": [
+      "node_modules"                 // Node modüllerini hariç tut
+    ]
+  }
